@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='grid md: grid-cols-2 gap-8'>
             
             <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-300 rounded-xl p-4 group hover:bg-gradient-to-r from-[#ffffff] to-[#a4a0a0]'>
-              <Image src={slcImg} alt='SLC Course System' className='rounded-xl' /> 
+              <Image src={slcImg} alt='SLC Course System' className='rounded-xl group-hover:opacity-10' /> 
             </div>
 
         </div>
