@@ -4,7 +4,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='w-full md:h-auto p-2 flex flex-col items-center py-16'>
+        <div id='skills' className='w-full md:h-auto p-2 flex flex-col items-center py-16'>
             <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-3'>
                     <p className='uppercase text-xl tracking-widest'>Skills</p>
