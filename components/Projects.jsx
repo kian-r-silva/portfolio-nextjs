@@ -1,6 +1,9 @@
-import Image from 'next/image'
 import React from 'react'
 import slcImg from '../public/assets/projects/SLC-CourseSystem.jpg'
+import weatherApp from '../public/assets/projects/React_WeatherApp.jpg'
+import simAnneal from '../public/assets/projects/Simulated Annealing.jpg'
+import flowSoc from '../public/assets/projects/FlowSoccer.jpg'
+import ProjectItem from './ProjectItem'
 
 const Projects = () => {
   return (
@@ -8,12 +11,11 @@ const Projects = () => {
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase'>Projects</p>
         <h2 className='py-4'>What I've Built</h2>
-        <div className='grid md: grid-cols-2 gap-8'>
-            
-            <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-300 rounded-xl p-4 group hover:bg-gradient-to-r from-[#ffffff] to-[#a4a0a0]'>
-              <Image src={slcImg} alt='SLC Course System' className='rounded-xl group-hover:opacity-10' /> 
-            </div>
-
+        <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem title='SLC Course System' backgroundImg={slcImg} projectUrl='/SLC-Course'/>
+          <ProjectItem title='Formula One Simulated Annealing' backgroundImg={simAnneal} projectUrl='/F1-Sched'/>
+          <ProjectItem title='Weather App' backgroundImg={weatherApp} projectUrl='/Weather-App'/>
+          <ProjectItem title='Flow Soccer' backgroundImg={flowSoc} projectUrl='/Flow-Soccer'/>
         </div>
       </div>
     </div>
@@ -21,3 +23,4 @@ const Projects = () => {
 }
 
 export default Projects
+
