@@ -13,7 +13,7 @@ const Skills = () => {
                 </div>
                 <div className='col-span-3 grid grid-cols-2 lg:grid-cols-4 gap-8'>
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/html.png' width='64' height='64' alt='HTML' />
@@ -23,7 +23,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/css.png' width='64' height='64' alt='CSS' />
@@ -35,7 +35,7 @@ const Skills = () => {
                     </div>
 
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/javascript.png' width='64' height='64' alt='JavaScript' />
@@ -46,7 +46,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/python.png' width='64' height='64' alt='Python' />
@@ -58,7 +58,7 @@ const Skills = () => {
                     </div>
 
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/java.png' width='64' height='64' alt='Java' />
@@ -70,7 +70,7 @@ const Skills = () => {
                     </div>
 
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/nextjs.png' width='64' height='64' alt='NextJS' />
@@ -81,7 +81,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/pandas.png' width='64' height='64' alt='Pandas' />
@@ -92,7 +92,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/react.png' width='64' height='64' alt='React' />
@@ -104,7 +104,7 @@ const Skills = () => {
                     </div>
 
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/docker.png' width='64' height='64' alt='Docker' />
@@ -115,7 +115,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/aws.png' width='64' height='64' alt='AWS' />
@@ -126,7 +126,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/node.png' width='64' height='64' alt='NodeJS' />
@@ -137,7 +137,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-lg bg-gray-800 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
+                    <div className='p-6 shadow-lg bg-gray-600 rounded-lg hover:scale-105 hover:shadow-2xl ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src='/assets/skills/tailwind.png' width='64' height='64' alt='Tailwind' />

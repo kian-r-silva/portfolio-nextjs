@@ -5,7 +5,6 @@ import { RiCloseFill, RiMenuFill } from "react-icons/ri";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { PiReadCvLogoLight } from "react-icons/pi";
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -95,18 +94,26 @@ const Navbar = () => {
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-[#e94560]'>Let's Connect!</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-md shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 transition duration-300'>
-                                    <FaLinkedin className='w-7 h-7' />
-                                </div>
-                                <div className='rounded-md shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 transition duration-300'>
-                                    <FaGithub className='w-7 h-7' />
-                                </div>
-                                <div className='rounded-md shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 transition duration-300'>
-                                    <FaInstagram className='w-7 h-7' />
-                                </div>
-                                <div className='rounded-md shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 transition duration-300'>
-                                    <PiReadCvLogoLight className='w-7 h-7' />
-                                </div>
+                                <a href='https://www.linkedin.com/in/kian-silva-/' target='_blank' rel='noopener noreferrer'>
+                                    <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <FaLinkedin className='w-8 h-8 text-[#e94560]' />
+                                    </div>
+                                </a>
+                                <a href='https://github.com/kian-r-silva' target='_blank' rel='noopener noreferrer'>
+                                    <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <FaGithub className='w-8 h-8 text-[#e94560]' />
+                                    </div>
+                                </a>
+                                <a href='https://www.instagram.com/kian.silva/' target='_blank' rel='noopener noreferrer'>
+                                    <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <FaInstagram className='w-8 h-8 text-[#e94560]' />
+                                    </div>
+                                </a>
+                                <a href='/Kian Silva Resume 2024.pdf' target='_blank' rel='noopener noreferrer'>
+                                    <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <PiReadCvLogoLight className='w-8 h-8 text-[#e94560]' />
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>

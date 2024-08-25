@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { PiReadCvLogoLight } from "react-icons/pi";
-import Image from 'next/image';
 
 const Main = () => {
     return (
@@ -22,19 +21,26 @@ const Main = () => {
                         push the boundaries of what's possible.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-8'>
-                        <div className='rounded-full shadow-lg shadow-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedin className='w-8 h-8 text-[#e94560]' />
+                        <a href='https://www.linkedin.com/in/kian-silva-/' target='_blank' rel='noopener noreferrer'>
+                            <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaLinkedin className='w-8 h-8 text-[#e94560]' />
+                            </div>
+                        </a>
+                        <a href='https://github.com/kian-r-silva' target='_blank' rel='noopener noreferrer'>
+                            <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaGithub className='w-8 h-8 text-[#e94560]' />
+                            </div>
+                        </a>
+                        <a href='https://www.instagram.com/kian.silva/' target='_blank' rel='noopener noreferrer'>
+                        <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <FaInstagram className='w-8 h-8 text-[#e94560]' />
                         </div>
-                        <div className='rounded-full shadow-lg shadow-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaGithub className='w-8 h-8 text-[#e94560]'/>
+                        </a>
+                        <a href='/Kian Silva Resume 2024.pdf' target='_blank' rel='noopener noreferrer'>
+                        <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <PiReadCvLogoLight className='w-8 h-8 text-[#e94560]' />
                         </div>
-                        <div className='rounded-full shadow-lg shadow-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaInstagram className='w-8 h-8 text-[#e94560]'/>
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <PiReadCvLogoLight className='w-8 h-8 text-[#e94560]' />
-
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

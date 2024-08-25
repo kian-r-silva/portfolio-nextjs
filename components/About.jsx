@@ -18,8 +18,8 @@ const About = () => {
             <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#e94560]'>About</p>
-                    <h2 className='py-4 text-3xl md:text-4xl font-bold text-gray-500'>Who I am</h2>
-                    <p className='py-4 text-lg text-gray-400 bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300'>
+                    <h2 className='py-4 text-3xl md:text-4xl font-bold text-gray-400'>Who I am</h2>
+                    <p className='py-4 text-lg text-gray-300 bg-gray-600 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300'>
                         I have an unyielding passion for technology and a deep desire to join a forward-focused company. I want to be part of a team dedicated to making
                         a positive impact through innovative tech development. My journey in the tech world has been all about exploring new horizons and finding ways to
                         harness technology for the greater good. I thrive in tight-knit communities where collaboration is key. Working with a diverse group of talented individuals
@@ -38,8 +38,8 @@ const About = () => {
             </div>
             <div className='max-w-[1240px] mx-auto md:grid grid-cols-2 gap-8 items-center mt-12'>
                 <div className='col-span-1'>
-                    <h2 className='py-4 text-3xl md:text-4xl font-bold text-gray-500'>How I Stay Busy</h2>
-                    <ul className='text-md list-disc list-inside space-y-4 text-gray-400 bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300'>
+                    <h2 className='py-4 text-3xl md:text-4xl font-bold text-gray-400'>How I Stay Busy</h2>
+                    <ul className='text-md list-disc list-inside space-y-4 text-gray-300 bg-gray-600 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300'>
                         <li>
                             <strong>Soccer:</strong> As captain of the Sarah Lawrence Men's Soccer team for three exhilarating years, I thrived on the thrill of competition and the camaraderie of my teammates. My passion for soccer started young and has always been my go-to stress relief. Along the way, I earned four Defensive Player of the Week awards, the Rookie of the Year award, and a spot on the Skyline Conference honor roll three times. Along the way I also managed to break three program records in goalkeeping. Now, I enjoy giving back through one-on-one youth coaching with some of my former teammates. And yes, I'm a die-hard Barcelona fan – Forca Barca!
                         </li>
