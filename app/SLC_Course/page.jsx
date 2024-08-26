@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 
 const SLCCoursePage = () => {
   return (
-    <div className='w-full h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-300'>
+    <div className='w-full min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-300'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-full bg-gray-900/70 z-10' />
         <Image
