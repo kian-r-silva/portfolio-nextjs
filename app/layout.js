@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
           <meta name="description" content="Created By Kian Silva" />
           <link rel="icon" href="/favicon.ico" /> 
         </Head>
+        <Analytics/>
         <Navbar />
         {children}
       </body>
