@@ -24,17 +24,20 @@ const SLCCoursePage = () => {
         <div className='col-span-4'>
           <p className='text-[#e94560] uppercase tracking-wider text-sm font-bold'>Project</p>
           <h2 className='text-2xl lg:text-3xl font-bold'>Overview</h2>
-          <p className='text-gray-300 mt-4'>As part of my Summer Science program at Sarah Lawrence College, I had the opportunity to work on various projects under the guidance of Mike Siff and Jim Marshall. One of my projects involved recreating the Sarah Lawrence course selection system in Python using the pandas library. Although functional, the initial version was unorganized and inefficient. During the last semester, I decided to redo this project in Java, focusing on an object-oriented approach to create a more efficient solution for building student schedules at Sarah Lawrence College.
-
-            Sarah Lawrence courses follow a unique structure, with a typical fifteen-credit semester divided into three five-credit courses, each with multiple meeting times, including mandatory sessions, group conferences, and labs. The complexity of determining which courses fit into a student's schedule necessitated the development of a course scheduling system.
-
-            I started by extracting course data from the mySLC course catalog and processing it into a text file, which served as the foundation for creating CourseBlock objects in my program. These objects store detailed information about each course and its meeting times, enabling the program to organize and manage the data effectively.
-
-            The program's core functionality includes searching for courses, adding and removing courses from a schedule, and checking for conflicts between courses. The conflictCheck method ensures that a student's schedule is free of conflicts by comparing course meeting times, days, and other relevant factors. While the system works well for the majority of cases, I acknowledge that it may not handle every possible scenario perfectly.
-
-            To enhance the user experience and provide a visual representation of the constructed schedule, I developed a very rough graphical user interface (GUI) in Java. The GUI was designed primarily as a simple means of displaying the schedule, making it easier to interact with than a terminal interface.
-
-            Ultimately, the school recognized the value of the algorithm and decided to take it on, modifying it to better fit their specific needs. This project allowed me to apply the concepts learned in my Data Structures and Algorithms course, resulting in a more efficient and organized course scheduling system.
+          <p className='text-gray-300 mt-4'>During my Summer Science program at Sarah Lawrence College, I worked on various projects with Mike Siff
+            and Jim Marshall. One key project involved recreating the Sarah Lawrence course selection system. Initially done in Python with pandas, the
+            system was functional but lacked efficiency.</p>
+          <p className='text-gray-300 mt-4'>
+            In my final semester, I revamped the project in Java using an object-oriented approach. This new system aimed to manage the complex scheduling
+            needs of Sarah Lawrence's unique course structure, which includes multiple meeting times for each five-credit course. </p>
+          <p className='text-gray-300 mt-4'>
+            I extracted course data from the mySLC catalog and processed it into a text file. This data formed the basis for creating CourseBlock objects,
+            which store detailed course information. The system includes features for searching courses, managing schedules, and checking for conflicts.
+          </p>
+          <p className='text-gray-300 mt-4'>
+            While the system works well overall, I also developed a basic graphical user interface (GUI) in Java to improve user interaction. The school
+            found the algorithm valuable and adapted it to their needs. This project allowed me to apply concepts from my Data Structures and Algorithms
+            course, resulting in a more efficient scheduling system.
           </p>
           <a href='https://github.com/kian-r-silva/Sarah-Lawrence-Schedule' target='_blank' rel='noopener noreferrer'>
             <button className='px-8 py-2 mt-4 text-white bg-[#e94560] rounded-lg shadow-md hover:bg-[#d22c4d] hover:shadow-lg transition duration-300'>

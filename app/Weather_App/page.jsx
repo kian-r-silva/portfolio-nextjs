@@ -24,10 +24,16 @@ const Weather_App = () => {
                 <div className='col-span-4'>
                     <p className='text-[#e94560] uppercase tracking-wider text-sm font-bold'>Project</p>
                     <h2 className='text-2xl lg:text-3xl font-bold'>Overview</h2>
-                    <p className='text-gray-300 mt-4'>One of the significant projects I’ve worked on is a weather application that began as a proof of concept in working with APIs during the summer of my freshman year at Sarah Lawrence Collge. This project was part of an internship with PharmaCCX, where I aimed to gain practical experience with APIs and ensured the end-to-end connection of their platforms APIs. The initial goal was to understand how to fetch and display weather data from external sources.
-
-                        The app utilizes the OpenWeatherAPI to provide weather information. While the application generally performs well, it does encounter occasional errors when searching for specific cities. Despite these issues, the app effectively showcases its intended functionality and has been enhanced with various style adjustments and minor improvements over time.
-
+                    <p className='text-gray-300 mt-4'>
+                    One of the significant projects I’ve worked on is a weather application that began as a proof of concept during the summer of my freshman 
+                    year at Sarah Lawrence College. This project was part of an internship with PharmaCCX, where I aimed to gain practical experience with APIs 
+                    and ensure the end-to-end connection of their platform's APIs. The initial goal was to understand how to fetch and display weather data from 
+                    external sources.
+                    </p>
+                    <p className='text-gray-300 mt-4'>
+                    The app utilizes the OpenWeatherAPI to provide weather information. While it generally performs well, it occasionally encounters errors when 
+                    searching for specific cities. Despite these issues, the app effectively demonstrates its intended functionality and has been enhanced over 
+                    time with various style adjustments and minor improvements.
                     </p>
                     <a href='https://github.com/kian-r-silva/WeatherApp' target='_blank' rel='noopener noreferrer'>
                         <button className='px-8 py-2 mt-4 text-white bg-[#e94560] rounded-lg shadow-md hover:bg-[#d22c4d] hover:shadow-lg transition duration-300'>

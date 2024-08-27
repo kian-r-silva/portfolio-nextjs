@@ -15,10 +15,10 @@ const Main = () => {
                         Aspiring Software Developer
                     </h2>
                     <p className='text-center max-w-[70%] py-4 m-auto text-gray-400'>
-                        I am currently a 3-2 engineering student, studying computer science at Sarah Lawrence College and Columbia University,
-                        graduating in the Columbia Class of '26. I am eager to join a forward-focused company that is dedicated to making a positive
-                        impact through innovative technology development. My passion lies in contributing to projects that drive meaningful change and
-                        push the boundaries of what's possible.
+                    I am currently a 3-2 engineering student, studying computer science at Sarah Lawrence College and Columbia University, graduating
+                    in the Columbia Class of '26. I am eager to join a forward-focused company where I can continue growing and learning new skills, 
+                    and that is dedicated to making a positive impact through innovative technology development. My passion lies in contributing to 
+                    projects that drive meaningful change and push the boundaries of what's possible.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-8'>
                         <a href='https://www.linkedin.com/in/kian-silva-/' target='_blank' rel='noopener noreferrer'>

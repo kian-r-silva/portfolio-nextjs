@@ -56,24 +56,24 @@ const Contact = () => {
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col py-2'>
                     <label className='uppercase text-small'>Name</label>
-                    <input type='text' name='name' className='border-2 rounded-lg p-3 flex border-gray-200' />
+                    <input type='text' name='name' className='border-2 rounded-lg p-3 flex border-gray-200 text-black' />
                   </div>
                   <div className='flex flex-col py-2'>
                     <label className='uppercase text-small'>Phone Number</label>
-                    <input type='tel' name='phone' className='border-2 rounded-lg p-3 flex border-gray-200' />
+                    <input type='tel' name='phone' className='border-2 rounded-lg p-3 flex border-gray-200 text-black' />
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-small'>Email</label>
-                  <input type='email' name='email' className='border-2 rounded-lg p-3 flex border-gray-200' />
+                  <input type='email' name='email' className='border-2 rounded-lg p-3 flex border-gray-200 text-black' />
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-small'>Subject</label>
-                  <input type='text' name='subject' className='border-2 rounded-lg p-3 flex border-gray-200' />
+                  <input type='text' name='subject' className='border-2 rounded-lg p-3 flex border-gray-200 text-black' />
                 </div>
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-small'>Message</label>
-                  <textarea type='text' name='message' className='border-2 rounded-lg p-3 border-gray-200' rows='10' />
+                  <textarea type='text' name='message' className='border-2 rounded-lg p-3 border-gray-200 text-black' rows='10' />
                 </div>
                 <button type='submit' className='w-full p-4 text-white bg-[#e94560] mt-4 rounded-lg hover:bg-[#d22c4d] transition duration-300 ease-in-out'>
                   Send Message

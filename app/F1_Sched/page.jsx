@@ -26,13 +26,18 @@ const F1_Sched = () => {
                     <p className='text-[#e94560] uppercase tracking-wider text-sm font-bold'>Project</p>
                     <h2 className='text-2xl lg:text-3xl font-bold'>Overview</h2>
                     <p className='text-gray-300 mt-4'>
-                        This is my Calculus II conference project, created at Sarah Lawrence College for Ross Parker's class. This semester-long research project allowed me to explore my interests in optimization algorithms while applying key concepts learned throughout the course.
-
-                        Formula One Racing is a unique sport that combines advanced engineering and exceptional driving skills. Each year, teams must design and develop a new car, focusing on innovations in areas like aerodynamics and engine efficiency. Recently, the sport has been transitioning to more eco-friendly hybrid engines. However, despite these advancements, the sport's global travel schedule is inefficient, causing unnecessary carbon emissions and financial strain on teams.
-
-                        To address this, I explored optimizing the Formula One calendar using the Simulated Annealing algorithm, which is inspired by the metallurgical process of heating and cooling materials to eliminate impurities. This algorithm helps find a near-optimal travel route by gradually refining solutions through random exploration and systematic cooling.
-
-                        By applying Simulated Annealing, I was able to reduce the total travel distance by over 94,000 kilometers, making the season more cost-effective and environmentally friendly. This optimization could lead to more efficient transportation methods and reduced expenses for Formula One teams, ultimately enhancing the competition and sustainability of the sport.
+                    For my Calculus II conference project at Sarah Lawrence College, I explored optimization algorithms under the guidance of Ross Parker. 
+                    The project focused on Formula One Racing, a sport known for its blend of advanced engineering and driving skill.
+                    </p>
+                    <p className='text-gray-300 mt-4'>
+                    Despite innovations in areas like aerodynamics and hybrid engines, Formula One's global travel schedule remains inefficient, leading 
+                    to excessive carbon emissions and high costs. To tackle this, I used the Simulated Annealing algorithm, which refines solutions by mimicking 
+                    the heating and cooling process in metallurgy.
+                    </p>
+                    <p className='text-gray-300 mt-4'>
+                    By applying this algorithm, I optimized the Formula One calendar, reducing the total travel distance by over 94,000 kilometers. This not 
+                    only made the season more cost-effective but also more environmentally friendly, potentially improving transportation efficiency and reducing 
+                    expenses for the teams.
                     </p>
                     <a href='https://github.com/kian-r-silva/Simulated-Annealing/' target='_blank' rel='noopener noreferrer'>
                         <button className='px-8 py-2 mt-4 text-white bg-[#e94560] rounded-lg shadow-md hover:bg-[#d22c4d] hover:shadow-lg transition duration-300'>
