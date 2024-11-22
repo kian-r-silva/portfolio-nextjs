@@ -20,7 +20,7 @@ const About = () => {
                     <p className='uppercase text-xl tracking-widest text-[#e94560]'>About</p>
                     <h2 className='py-4 text-3xl md:text-4xl font-bold text-gray-400'>Who I am</h2>
                     <p className='py-4 text-lg text-gray-300 bg-gray-600 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300'>
-                    I have an unyielding passion for technology and a deep desire to join a forward-focused company where I can continue growing and 
+                    I have a passion for technology and a deep desire to join a forward-focused company where I can continue growing and 
                     learning new skills. I want to be part of a team dedicated to making a positive impact through innovative tech development. My journey 
                     in the tech world has been all about exploring new horizons and finding ways to harness technology for the greater good. I thrive in 
                     tight-knit communities where collaboration is key, and I enjoy working with a diverse group of talented individuals. Being bilingual in 
