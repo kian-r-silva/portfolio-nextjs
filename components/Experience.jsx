@@ -10,6 +10,32 @@ const Experiences = () => {
           <h2 className='py-4 text-3xl md:text-4xl font-bold text-gray-300'>Where I've Worked</h2>
           <div className='space-y-8'>
             <div className='flex items-center p-4 rounded-lg bg-gray-600 shadow-md w-full'>
+              <Image src='/assets/Bili.jpeg' alt='Bili' width='64' height='64' className='rounded-full' />
+              <div className='pl-4 ml-4'>
+                <h3 className='text-2xl font-semibold text-gray-300'>Software Engineering Intern</h3>
+                <p className='text-gray-300'>Bili</p>
+                <p className='text-gray-400'>Jan 2025 - Present</p>
+                <ul className='mt-2 list-disc ml-4 text-gray-200'>
+                  <li>Built a drag-and-drop panel for automation workflows by designing a central interface for assembling sequences of
+                  agents and decision branches, enabling users to visually configure and connect nodes.</li>
+                  <li>Integrated real-time fetching and display of execution details, including logs, status updates, and results, to provide
+                  immediate insights into task performance and support workflow optimization.</li>
+                </ul>
+              </div>
+            </div>
+            <div className='flex items-center p-4 rounded-lg bg-gray-600 shadow-md w-full'>
+              <Image src='/assets/ColumbiaE3b.jpeg' alt='ColumbiaE3b' width='64' height='64' className='rounded-full' />
+              <div className='pl-4 ml-4'>
+                <h3 className='text-2xl font-semibold text-gray-300'>Lab Assistant to Professor Marina Cords</h3>
+                <p className='text-gray-300'>Columbia University E3B Labs</p>
+                <p className='text-gray-400'>September 2024 - Present</p>
+                <ul className='mt-2 list-disc ml-4 text-gray-200'>
+                  <li>Built new coding algorithms to automate data cleaning processes by streamlining workflows and reducing manual
+                  intervention, achieving a 40% reduction in errors and a 50% increase in data collection efficiency.</li>
+                </ul>
+              </div>
+            </div>
+            <div className='flex items-center p-4 rounded-lg bg-gray-600 shadow-md w-full'>
               <Image src='/assets/PharmaCCX.png' alt='PharmaCCX' width='64' height='64' className='rounded-full' />
               <div className='pl-4 ml-4'>
                 <h3 className='text-2xl font-semibold text-gray-300'>Back-end Technology Intern</h3>

@@ -36,7 +36,7 @@ const Main = () => {
                             <FaInstagram className='w-8 h-8 text-[#e94560]' />
                         </div>
                         </a>
-                        <a href='/Kian-Silva Resume 2024.pdf' target='_blank' rel='noopener noreferrer'>
+                        <a href='/Silva_Resume_2025.pdf' target='_blank' rel='noopener noreferrer'>
                         <div className='rounded-full shadow-lg shadow-gray-900 bg-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <PiReadCvLogoLight className='w-8 h-8 text-[#e94560]' />
                         </div>
