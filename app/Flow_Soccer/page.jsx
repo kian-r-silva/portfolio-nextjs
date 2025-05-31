@@ -9,7 +9,7 @@ const F1_Sched = () => {
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-full bg-gray-900/70 z-10" />
         <Image
-          src="/assets/projects/FlowSoccer.jpg"
+          src="/assets/projects/FlowSoccer.png"
           alt="FlowSoccerThumbnail"
           layout="fill"
           objectFit="cover"

@@ -2,7 +2,7 @@ import React from 'react';
 import slcImg from '../public/assets/projects/SLC-CourseSystem.jpg';
 import weatherApp from '../public/assets/projects/React_WeatherApp.jpg';
 import simAnneal from '../public/assets/projects/Simulated Annealing.jpg';
-import flowSoc from '../public/assets/projects/FlowSoccer.jpg';
+import flowSoc from '../public/assets/projects/FlowSoccer.png';
 import PremPredict from '../public/assets/projects/PremPredict.jpg';
 import ProjectItem from './ProjectItem';
 
