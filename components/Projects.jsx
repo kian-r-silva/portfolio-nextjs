@@ -11,7 +11,7 @@ const Projects = () => {
         { title: 'SLC Course System', backgroundImg: slcImg, projectUrl: '/SLC_Course', skillType: 'Java' },
         { title: 'Formula One Simulated Annealing', backgroundImg: simAnneal, projectUrl: '/F1_Sched', skillType: 'Python' },
         { title: 'Weather App', backgroundImg: weatherApp, projectUrl: '/Weather_App', skillType: 'JavaScript / React' },
-        { title: 'Flow Soccer', backgroundImg: flowSoc, projectUrl: '/Flow_Soccer', skillType: 'HTML / SquareSpace' },
+        { title: 'Flow Soccer', backgroundImg: flowSoc, projectUrl: '/Flow_Soccer', skillType: 'React / Tailwind /Figma' },
         { title: 'Premier League Predictor', backgroundImg: PremPredict, projectUrl: '/PremPredict', skillType: 'Python / Sklearn / Pandas / Numpy' },
     ];
 
